@@ -1,0 +1,68 @@
+.ContactHero1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff5f6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  padding: 100px;
+}
+
+.ContactHero1_container {
+  max-width: 1400px;
+  height: 600px;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.caption {
+  color: #fff;
+  height: 130px;
+  font-size: 21px;
+  top: 30px;
+  text-align: center;
+  background-color: #6a4bfd;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.caption h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.caption h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.caption a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.caption a:hover {
+  text-decoration: underline;
+}
+
+.ContactHero1_container .photo_div .img_box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.ContactHero1_container .photo_div .img_box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

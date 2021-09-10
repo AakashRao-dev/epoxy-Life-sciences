@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@400;500;600;700&display=swap");
+
+.ProductsHero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/products.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  padding: 150px;
+}
+
+.ProductsHero_container {
+  max-width: 600px;
+  margin-left: 40px;
+  padding: 60px;
+  border-radius: 30px;
+  background: rgba(238, 238, 238, 0.856);
+}
+
+.ProductsHero_text {
+  padding: 20px;
+  color: #3d2019;
+}
+
+.ProductsHero_text h1 {
+  font-family: "Roboto slab", sans-serif;
+  font-size: 40px;
+}
+
+.ProductsHero_text p {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.ProductsHero_Button {
+  margin-top: 20px;
+  background: #6fc9c0;
+  max-width: 350px;
+}
+
+.ProductsHero_Button .text {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #3d2019;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .ProductsHero {
+    padding: 80px 40px;
+  }
+
+  .ProductsHero_container {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 40px 20px;
+  }
+
+  .ProductsHero_Button .text {
+    letter-spacing: 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ProductsHero {
+    padding: 40px 10px;
+  }
+  .ProductsHero_container {
+    padding: 40px 10px;
+  }
+}

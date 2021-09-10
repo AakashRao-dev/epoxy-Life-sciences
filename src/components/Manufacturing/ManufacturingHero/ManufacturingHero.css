@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@400;500;600;700&display=swap");
+
+.Manufacturing_Hero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/Manufacturing_Hero_Bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  padding: 140px;
+}
+
+.Manufacturing_container {
+  max-width: 500px;
+  background: #eeeeeeda;
+  border: 1px solid #000;
+  border-radius: 30px;
+  margin-left: 120px;
+  padding: 40px;
+}
+
+.Manufacturing_container_text {
+  padding: 20px;
+}
+
+.Manufacturing_container_text h1 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.Manufacturing_container_text p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .Manufacturing_Hero {
+    padding: 50px;
+  }
+
+  .Manufacturing_container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Manufacturing_Hero {
+    padding: 60px 20px;
+  }
+
+  .Manufacturing_container {
+    padding: 20px 10px;
+  }
+
+  .Manufacturing_container_text h1 {
+    font-size: 35px;
+  }
+
+  .Manufacturing_container_text {
+    padding: 8px;
+  }
+
+  .Manufacturing_container_text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Manufacturing_Hero {
+    padding: 20px 10px;
+  }
+}

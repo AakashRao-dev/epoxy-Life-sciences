@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Header and logo styling */
+.Logo {
+  position: absolute;
+  top: 40px;
+  left: 12vw;
+}
+
+.Header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  height: 150px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Header .contact {
+  position: absolute;
+  top: 7px;
+  right: 10vw;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 0 12px 0;
+  justify-content: space-evenly;
+  color: #350eee;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.Header .contact a {
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.Header .contact .phone,
+.Header .contact .email {
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header .contact .phone .phone_img,
+.Header .contact .email .email_img {
+  margin: 0 13px 0 0;
+  color: #2979ff;
+  font-size: 26px;
+}
+
+.nav-options {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  grid-gap: 18px;
+}
+
+.nav-options .links {
+  padding: 0 2px;
+  color: #6a4bfd;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: inherit;
+  letter-spacing: 1px;
+}
+
+.nav-options .button {
+  display: none;
+}
+
+.nav-options .links:hover {
+  border-bottom: 2px solid red;
+}
+
+/* Bar for navbar */
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1454px) {
+  .Logo {
+    left: 0;
+  }
+
+  .Header .contact .phone,
+  .Header .contact .email {
+    padding: 0;
+  }
+
+  .nav-options {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .nav-options,
+  .Header .contact,
+  .Header .contact .phone,
+  .Header .contact .email {
+    display: none;
+  }
+
+  .Header {
+    height: 100px;
+  }
+
+  .Logo {
+    top: 20px;
+    left: 2vw;
+    width: 250px;
+    height: 60px;
+  }
+
+  .Logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .Header .logo img {
+    top: 0;
+  }
+
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    flex-direction: column;
+    overflow: hidden;
+    list-style-type: none;
+    grid-gap: 12px;
+    text-align: center;
+  }
+
+  .nav-options .links {
+    color: #350eee;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 20px;
+  }
+
+  .nav-options.active {
+    background: #fff;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 5vw;
+    top: 30px;
+    font-size: 1.6em;
+    cursor: pointer;
+  }
+
+  .close-icon {
+    font-size: 1.5em;
+  }
+
+  .nav-options .button {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .nav-options .button a {
+    text-decoration: none;
+    color: #fff;
+    background: #4c8dff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .nav-options .button:hover {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .Logo {
+    width: 200px;
+    left: 4vw;
+  }
+  .nav-options .links:hover {
+    border-bottom: none;
+  }
+}

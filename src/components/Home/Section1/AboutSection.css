@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.Home_about {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../../../images/AboutSection.png);
+  padding: 100px;
+}
+
+.about_container {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100%;
+  text-align: center;
+}
+
+.about_container .text {
+  font-family: "Open Sans", sans-serif;
+}
+
+.about_container .text h1 {
+  color: #5e5a72;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+
+.about_container .text h2 {
+  color: #12a9e7;
+  font-size: 40px;
+  margin-top: 45px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.about_container .text .paragraph {
+  color: #414141;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about_container .text .paragraph p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.button_link {
+  text-decoration: none;
+}
+
+.button_about {
+  max-width: 200px;
+  margin: 0 auto;
+  background: #6a4bfd;
+}
+
+@media screen and (max-width: 900px) {
+  .Home_about {
+    padding: 20px;
+  }
+
+  .about_container {
+    padding: 40px 20px;
+  }
+
+  .about_container .text h1 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .about_container .text h2 {
+    margin-top: 32px;
+    font-size: 24px;
+  }
+
+  .about_container .text .paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about_container .text .paragraph p {
+    margin-top: 0;
+    font-size: 16px;
+  }
+}

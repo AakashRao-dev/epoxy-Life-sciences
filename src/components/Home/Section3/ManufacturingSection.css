@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.home_manufacturing {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fffbfb;
+}
+
+.manufacturing_container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.manufacturing_text {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #12a9e7;
+}
+
+.manufacturing_text h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.manufacturing_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.manufacturing_box .box {
+  margin: 40px;
+}
+
+.manufacturing_box .box .imgbox {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.manufacturing_box .box .imgbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.manufacturing_button {
+  max-width: 180px;
+  background: #6a4bfd;
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .home_manufacturing {
+    padding: 20px;
+  }
+
+  .manufacturing_container {
+    padding: 20px;
+  }
+
+  .manufacturing_box .box {
+    margin-top: 20px;
+  }
+  .manufacturing_box .box .imgbox {
+    width: 300px;
+    height: 250px;
+  }
+
+  .manufacturing_text h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .manufacturing_box {
+    margin-top: 20px;
+  }
+  .manufacturing_button {
+    margin-top: 10px;
+  }
+}

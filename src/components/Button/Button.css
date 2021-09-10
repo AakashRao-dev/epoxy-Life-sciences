@@ -1,0 +1,10 @@
+.click {
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.arrow {
+  margin-left: 4px;
+  font-weight: 200;
+}
