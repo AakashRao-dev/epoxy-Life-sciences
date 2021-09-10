@@ -24,13 +24,13 @@ const Footer = () => {
             <div className="follow">
               <h2>
                 Follow Us
-                <a href="#" className="Footer_Navlink">
+                <a href="https://www.facebook.com/aakash.rao.798278" className="Footer_Navlink">
                   <FaFacebook className="footer_icon" />
                 </a>
-                <a href="#" className="Footer_Navlink">
+                <a href="https://www.linkedin.com/in/aakash-rao-45a021204/" className="Footer_Navlink">
                   <FaLinkedin className="footer_icon" />
                 </a>
-                <a href="#" className="Footer_Navlink">
+                <a href="https://twitter.com/Aakash_Rao_02" className="Footer_Navlink">
                   <FaTwitter className="footer_icon" />
                 </a>
               </h2>
