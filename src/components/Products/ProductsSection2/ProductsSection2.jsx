@@ -31,7 +31,7 @@ const ProductsSection2 = () => {
               <img src={img3} alt="" />
             </div>
             <div className="price">
-              <h3>Price-149</h3>
+              <h3>Price-1898</h3>
             </div>
           </div>
           <div className="box">
@@ -39,7 +39,7 @@ const ProductsSection2 = () => {
               <img src={img4} alt="" />
             </div>
             <div className="price">
-              <h3>Price-1898</h3>
+              <h3>Price-149</h3>
             </div>
           </div>
         </div>
