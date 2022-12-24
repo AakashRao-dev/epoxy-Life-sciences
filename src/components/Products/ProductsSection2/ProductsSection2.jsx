@@ -1,9 +1,5 @@
 import React from 'react';
 import './ProductSection2.css';
-import img1 from '../../../images/product-1.jpeg';
-import img2 from '../../../images/product-2.jpeg';
-import img3 from '../../../images/product-3.jpeg';
-import img4 from '../../../images/product-4.jpeg';
 import img5 from '../../../images/product-5.jpeg';
 import img6 from '../../../images/product-6.jpeg';
 import img7 from '../../../images/product-7.jpeg';
