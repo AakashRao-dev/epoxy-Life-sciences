@@ -21,22 +21,6 @@ const ProductsSection2 = () => {
     <div className="production_section2">
       {/* Grid Container */}
       <div className="product_container">
-        {/* item-1 */}
-        <div className="product_item">
-          <img src={img1} alt="" />
-        </div>
-        {/* item-2 */}
-        <div className="product_item">
-          <img src={img2} alt="" />
-        </div>
-        {/* item-3 */}
-        <div className="product_item">
-          <img src={img3} alt="" />
-        </div>
-        {/* item-4 */}
-        <div className="product_item">
-          <img src={img4} alt="" />
-        </div>
         {/* item-5 */}
         <div className="product_item">
           <img src={img5} alt="" />
