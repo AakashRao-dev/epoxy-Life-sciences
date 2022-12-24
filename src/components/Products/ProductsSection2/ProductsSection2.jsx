@@ -18,140 +18,68 @@ import img15 from '../../../images/product-15.jpeg';
 
 const ProductsSection2 = () => {
   return (
-    <div className="productSection2">
-      <div className="productSection2_container">
-        <div className="Product_box">
-          <div className="box">
-            <div className="imgbox">
-              <img src={img1} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-60.50</h3>
-            </div>
-          </div>
-          <div className="box">
-            <div className="imgbox">
-              <img src={img2} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-49.70</h3>
-            </div>
-          </div>
-          <div className="box">
-            <div className="imgbox">
-              <img src={img3} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-1898</h3>
-            </div>
-          </div>
-          <div className="box">
-            <div className="imgbox">
-              <img src={img4} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-5 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img5} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-6 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img6} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-7 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img7} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-8 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img8} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-9 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img9} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-10 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img10} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-11 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img11} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-12 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img12} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-13 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img13} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-14 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img14} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
-          {/* Image-15 */}
-          <div className="box">
-            <div className="imgbox">
-              <img src={img15} alt="" />
-            </div>
-            <div className="price">
-              <h3>Price-149</h3>
-            </div>
-          </div>
+    <div className="production_section2">
+      {/* Grid Container */}
+      <div className="product_container">
+        {/* item-1 */}
+        <div className="product_item">
+          <img src={img1} alt="" />
+        </div>
+        {/* item-2 */}
+        <div className="product_item">
+          <img src={img2} alt="" />
+        </div>
+        {/* item-3 */}
+        <div className="product_item">
+          <img src={img3} alt="" />
+        </div>
+        {/* item-4 */}
+        <div className="product_item">
+          <img src={img4} alt="" />
+        </div>
+        {/* item-5 */}
+        <div className="product_item">
+          <img src={img5} alt="" />
+        </div>
+        {/* item-6 */}
+        <div className="product_item">
+          <img src={img6} alt="" />
+        </div>
+        {/* item-7 */}
+        <div className="product_item">
+          <img src={img7} alt="" />
+        </div>
+        {/* item-8 */}
+        <div className="product_item">
+          <img src={img8} alt="" />
+        </div>
+        {/* item-9 */}
+        <div className="product_item">
+          <img src={img9} alt="" />
+        </div>
+        {/* item-10 */}
+        <div className="product_item">
+          <img src={img10} alt="" />
+        </div>
+        {/* item-11 */}
+        <div className="product_item">
+          <img src={img11} alt="" />
+        </div>
+        {/* item-12 */}
+        <div className="product_item">
+          <img src={img12} alt="" />
+        </div>
+        {/* item-13 */}
+        <div className="product_item">
+          <img src={img13} alt="" />
+        </div>
+        {/* item-14 */}
+        <div className="product_item">
+          <img src={img14} alt="" />
+        </div>
+        {/* item-15 */}
+        <div className="product_item">
+          <img src={img15} alt="" />
         </div>
       </div>
     </div>

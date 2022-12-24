@@ -1,82 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@400;500;600;700&display=swap");
-
-.productSection2 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  padding: 60px 100px;
-}
-
-.productSection2_container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.productSection2 .Product_box {
-  position: relative;
+.production_section2 {
   width: 100%;
   height: 100%;
 }
 
-.productSection2 .Product_box .box {
-  width: 900px;
-  height: 1000px;
-  background-color: blueviolet;
-  margin: 100px auto;
+.product_container {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
-.productSection2 .Product_box .box .imgbox {
-  position: relative;
-  max-width: 900px;
-  height: 900px;
-  overflow: hidden;
-}
-
-.productSection2 .Product_box .box .price {
-  color: #fff;
-  text-align: center;
-}
-
-.productSection2 .Product_box .box .price h3 {
-  margin-top: 25px;
-}
-
-.productSection2_container .Product_box .box .imgbox img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.product_item {
+  outline: 2px solid #999;
   object-fit: cover;
 }
 
-@media screen and (max-width: 1134px) {
-  .productSection2 {
-    padding: 60px 40px;
-  }
-}
-
-@media screen and (max-width: 976px) {
-  .productSection2 .Product_box .box {
-    max-width: 500px;
-    height: 500px;
-  }
-
-  .productSection2 .Product_box .box .imgbox {
-    max-width: 500px;
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 464px) {
-  .productSection2 .Product_box .box {
-    width: 300px;
-    height: 300px;
-  }
-
-  .productSection2 .Product_box .box .imgbox {
-    max-width: 300px;
-    height: 200px;
-  }
+img {
+  width: 100%;
 }
