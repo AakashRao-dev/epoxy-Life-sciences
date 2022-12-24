@@ -1,8 +1,8 @@
-import React from "react";
-import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
-import "./Footer.css";
-import { NavLink } from "react-router-dom";
-import img from "../../images/Logo-white.png";
+import React from 'react';
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import './Footer.css';
+import { NavLink } from 'react-router-dom';
+import img from '../../images/Logo-white.png';
 
 const Footer = () => {
   return (
@@ -16,21 +16,30 @@ const Footer = () => {
             <div className="address">
               <h2>Corporate Office</h2>
               <p>
-                Room No. 1 & 2, GR.FL., HOUSE NO. 4829/25, W.NO 20, Nagrik
-                Suvichar Society, Janki Nagar, Chikhali (KHU) Maa Bhagwati
-                Nagar, Nagpur-440034
+                Room No. 1, 2, & 3, First Floor, House No. 6657/A/14, Plot No
+                W.NO. 14, Awadut Nagar No.1, Chikhali Road, Chikhali Layout,
+                Manewada, Nagpur
               </p>
             </div>
             <div className="follow">
               <h2>
                 Follow Us
-                <a href="https://www.facebook.com/aakash.rao.798278" className="Footer_Navlink">
+                <a
+                  href="https://www.facebook.com/aakash.rao.798278"
+                  className="Footer_Navlink"
+                >
                   <FaFacebook className="footer_icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/aakash-rao-45a021204/" className="Footer_Navlink">
+                <a
+                  href="https://www.linkedin.com/in/aakash-rao-45a021204/"
+                  className="Footer_Navlink"
+                >
                   <FaLinkedin className="footer_icon" />
                 </a>
-                <a href="https://twitter.com/Aakash_Rao_02" className="Footer_Navlink">
+                <a
+                  href="https://twitter.com/Aakash_Rao_02"
+                  className="Footer_Navlink"
+                >
                   <FaTwitter className="footer_icon" />
                 </a>
               </h2>
@@ -52,7 +61,7 @@ const Footer = () => {
                 <li>Media</li>
               </NavLink>
               <NavLink to="/contact" className="Footer_Navlink">
-                {" "}
+                {' '}
                 <li>Contact Us</li>
               </NavLink>
             </ul>
@@ -62,7 +71,7 @@ const Footer = () => {
         <hr className="Line" />
         <div className="copyright">
           <p>
-            Copyright @ 2021 Epoxy Life Sciences (EPS) |{" "}
+            Copyright @ 2021 Epoxy Life Sciences (EPS) |{' '}
             <span>
               <NavLink to="/privacypolicy" className="Footer_Navlink">
                 Privacy Policy
