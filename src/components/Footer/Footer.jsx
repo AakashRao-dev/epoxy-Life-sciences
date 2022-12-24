@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import './Footer.css';
 import { NavLink } from 'react-router-dom';
 import img from '../../images/Logo-white.png';
@@ -18,29 +18,29 @@ const Footer = () => {
               <p>
                 Room No. 1, 2, & 3, First Floor, House No. 6657/A/14, Plot No
                 W.NO. 14, Awadut Nagar No.1, Chikhali Road, Chikhali Layout,
-                Manewada, Nagpur
+                Manewada, Nagpur, Tal: Corporation Zone 40 (NAGPUR ZONE 1)
               </p>
             </div>
             <div className="follow">
               <h2>
                 Follow Us
                 <a
-                  href="https://www.facebook.com/aakash.rao.798278"
+                  href="https://www.instagram.com/epoxylifesciences/"
                   className="Footer_Navlink"
                 >
-                  <FaFacebook className="footer_icon" />
+                  <FaInstagram className="footer_icon" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/aakash-rao-45a021204/"
-                  className="Footer_Navlink"
-                >
-                  <FaLinkedin className="footer_icon" />
-                </a>
-                <a
-                  href="https://twitter.com/Aakash_Rao_02"
+                  href="https://twitter.com/VipinGo85769686"
                   className="Footer_Navlink"
                 >
                   <FaTwitter className="footer_icon" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/vipin-goyal-72b79218/"
+                  className="Footer_Navlink"
+                >
+                  <FaLinkedinIn className="footer_icon" />
                 </a>
               </h2>
             </div>
